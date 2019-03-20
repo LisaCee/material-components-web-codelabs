@@ -1,4 +1,24 @@
 @import "./common";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin: auto;
+}
+
+.button-container button {
+  margin: 3px;
+}
+
+.username,
+.password {
+  display: block;
+  width: 300px; 
+  margin: 20px auto;
+}
 
 .header {
   text-align: center;
