@@ -30,3 +30,18 @@
 .button-container button {
   margin: 3px;
 }
+
+.shrine-login {
+  background-color: $mdc-theme-background;
+  color: $mdc-theme-on-background;
+}
+
+.cancel {
+  @include mdc-button-ink-color(on-surface);
+}
+.username,
+.password {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
